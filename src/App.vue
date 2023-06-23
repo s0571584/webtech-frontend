@@ -2,6 +2,7 @@
   <div id="app">
     <router-link to="/" class="button">Home</router-link>
     <router-link to="/recipecreator" class="button">Recipe Creator</router-link>
+    <router-link to="/recipecreatorAI" class="button">Recipe Creator AI</router-link>
     <router-view />
   </div>
 </template>

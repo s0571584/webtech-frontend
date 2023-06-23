@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Neues Rezept erstellen</h2>
+    <h2>Neues Rezept speichern</h2>
 
     <form @submit.prevent="submitForm">
       <label htmlFor="name">Rezeptname:</label>
