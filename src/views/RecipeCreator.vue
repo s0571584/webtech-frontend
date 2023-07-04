@@ -12,7 +12,7 @@
       <label htmlFor="zutaten">Zutaten:</label>
       <textarea v-model="newRecipe.zutaten" id="zutaten" required></textarea>
 
-      <button type="submit">Rezept erstellen</button>
+      <button type="submit">Rezept speichern</button>
     </form>
   </div>
 </template>
