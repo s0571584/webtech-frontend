@@ -3,25 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "18.13.0",
-    "npm": "9.6.7"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "scripts": {
     "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "heroku-postbuild": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@vue/cli-service": "~5.0.0",
     "@vue/test-utils": "^2.4.0",
     "core-js": "^3.8.3",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
+    "@vue/cli-service": "~5.0.0",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
