@@ -32,7 +32,9 @@ export default {
       }
       const zutaten = this.zutaten;
       try {
-        const response = await fetch('http://localhost:8082/api/openai/chat', {
+        const baseUrl = process.env.VUE_APP_BACKEND_BASE_URL
+        const endpoint = baseUrl + "/api/openai/chat"
+        const response = await fetch(endpoint, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

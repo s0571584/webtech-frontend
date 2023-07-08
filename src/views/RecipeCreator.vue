@@ -30,7 +30,9 @@ export default {
   },
   methods: {
     submitForm() {
-      const url = 'http://localhost:8082/rezepte';
+      const baseUrl = process.env.VUE_APP_BACKEND_BASE_URL
+      const url = baseUrl;
+
 
       const zutaten = this.newRecipe.zutaten.split(',');
 

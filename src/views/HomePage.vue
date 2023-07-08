@@ -18,6 +18,9 @@ export default {
   justify-content: center;
   align-items: center;
   height: 70vh;
+  background-image: url("../assets/foodpic.jpg ");
+  background-size: cover;
+  background-position: center;
   padding: 20px;
   text-align: center;
 }
