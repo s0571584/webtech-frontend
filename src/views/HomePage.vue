@@ -18,8 +18,6 @@ export default {
   justify-content: center;
   align-items: center;
   height: 70vh;
-  background-size: cover;
-  background-position: center;
   padding: 20px;
   text-align: center;
 }
