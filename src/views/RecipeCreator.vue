@@ -30,9 +30,10 @@ export default {
   },
   methods: {
     submitForm() {
-      const baseUrl = process.env.VUE_APP_BACKEND_BASE_URL
-      const url = baseUrl;
 
+      const baseUrl = process.env.VUE_APP_BACKEND_BASE_URL
+      const endpoint = baseUrl + '/rezepte'
+      const url = endpoint;
 
       const zutaten = this.newRecipe.zutaten.split(',');
 
